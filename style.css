@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: radial-gradient(circle at 50% -20.71%, #5bd2f5 0, #63d1fa 4.55%, #6ecfff 9.09%, #7accff 13.64%, #87caff 18.18%, #95c7ff 22.73%, #a2c4ff 27.27%, #afc1ff 31.82%, #bcbeff 36.36%, #c8bbfd 40.91%, #d4b8f8 45.45%, #deb5f2 50%, #e7b2eb 54.55%, #f0b0e4 59.09%, #f6aedb 63.64%, #fcacd3 68.18%, #ffabca 72.73%, #ffabc1 77.27%, #ffabb8 81.82%, #ffabb0 86.36%, #ffada7 90.91%, #ffae9f 95.45%, #ffb198 100%);
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+h3 {
+	color: rgb(12, 10, 10);
+	 margin: 10px 0 20px;
+	 text-align: center;
+}
+
+.textarea {
+	border: none;
+	display: block;
+	width: 100%;
+	height: 100px;
+	font-family: inherit;
+	padding: 10px;
+	margin: 0 0 20px;
+	font-size: 16px;
+	background-color: gray;
+}
+
+.tag {
+	background-color: #2575f7;
+	color: #fff;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin: 0 5px 10px 0;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.tag.highlight {
+	background-color: rgb(4, 4, 110);
+}
