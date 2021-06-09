@@ -22,7 +22,11 @@ h3 {
 	 text-align: center;
 }
 
-.textarea {
+.container {
+	width: 500px;
+}
+
+textarea {
 	border: none;
 	display: block;
 	width: 100%;
@@ -30,8 +34,9 @@ h3 {
 	font-family: inherit;
 	padding: 10px;
 	margin: 0 0 20px;
+	border-radius: 5px;
 	font-size: 16px;
-	background-color: gray;
+	background-color: rgb(218, 129, 129);
 }
 
 .tag {
@@ -39,11 +44,11 @@ h3 {
 	color: #fff;
 	border-radius: 50px;
 	padding: 10px 20px;
-	margin: 0 5px 10px 0;
+	margin: 5px 5px 10px 0;
 	font-size: 14px;
 	display: inline-block;
 }
 
 .tag.highlight {
-	background-color: rgb(4, 4, 110);
+	background-color: rgb(130, 233, 46);
 }
